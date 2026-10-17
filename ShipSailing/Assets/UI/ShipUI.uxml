@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Style src="ShipStyle.uss" />
+    <ui:VisualElement class="hud-container">
+        <ui:Label text="Sail Strength: 100%" name="SailOpenLabel" class="hud-label" />
+        <ui:Label text="Sail Rotation: 0°" name="SailRotationLabel" class="hud-label" />
+        <ui:Label text="Ship Speed: 0.0 kn" name="ShipSpeedLabel" class="hud-label" />
+    </ui:VisualElement>
+</ui:UXML>

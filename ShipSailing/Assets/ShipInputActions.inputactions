@@ -1,0 +1,141 @@
+{
+    "version": 1,
+    "name": "ShipInputActions",
+    "maps": [
+        {
+            "name": "ShipControls",
+            "id": "c952b217-8327-40ec-b889-5ea2841a2612",
+            "actions": [
+                {
+                    "name": "SailUp",
+                    "type": "Button",
+                    "id": "96566d06-88bf-454e-ac57-eedea20e673c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "SailDown",
+                    "type": "Button",
+                    "id": "f77fb5fe-f041-4df4-96a5-a6fd36d0b0f2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "SailLeft",
+                    "type": "Button",
+                    "id": "2cc5d3b6-bee3-4835-b242-549516a351fe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "SailRight",
+                    "type": "Button",
+                    "id": "32ef601d-7c90-4db0-baf3-0736d1685547",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "RudderLeft",
+                    "type": "Button",
+                    "id": "74e4a05d-63ae-4397-8bca-0d349d406381",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "RudderRight",
+                    "type": "Button",
+                    "id": "b863b635-3f7d-4202-bffb-0d9db95e0eec",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "628eb32f-a3f7-4d61-8f51-dc3a4ff7cb76",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SailUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e7911d33-98ad-42cb-a031-673ffed47d86",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SailDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f75bca15-dfe1-4f85-a29a-7fb6c52c684a",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SailLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f133d845-ad46-4ef6-843c-e12ee8364f60",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SailRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d501e120-eb02-4bcd-91c2-a38c8472d204",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RudderLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0bfd8bec-d6ef-4421-b70a-db749909d2b6",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RudderRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
